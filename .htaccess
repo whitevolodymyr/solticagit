@@ -1,9 +1,0 @@
-
-# Set the main version of the website
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www\.slottica-pl\.pl [NC]
-RewriteRule ^(.*)$ https://slottica-pl.pl/$1 [L,R=301]
-
-# Redirect from /go/ to the specified URL
-RewriteCond %{REQUEST_URI} ^/go/?$
-RewriteRule ^(.*)$ https://referencemen.net/ktVmDV?c=0091cqff47fpz-c797028965694cc3 [L,R=301]
